@@ -1,6 +1,6 @@
 # 🐸 🐍 ⚙️
 
-This 'web scraper' aims to collect ads from Pendrives in Amazon, collecting the ads and turning them into a spreadsheet. The system collects the title and price of ads, then allows the choice between saving as .csv or .xlsx, review the sites if there is any interesting ad in the spreadsheet :)
+This 'web scraper' aims to collect ads from Otamatones in websites, collecting the ads and turning them into a spreadsheet. The system collects the title and price of ads, then allows the choice between saving as .csv or .xlsx, review the sites if there is any interesting ad in the spreadsheet :)
 
 # ⚙️ Installation
 ### Prerequisites
@@ -12,7 +12,7 @@ This 'web scraper' aims to collect ads from Pendrives in Amazon, collecting the 
 **How to do**
 1. Clone the repository:
  ```bash
-git clone https://github.com/pythonbyfrogs/Scraper-Reserva-Dracaena
+git clone https://github.com/pythonbyfrogs/Scraper-Otamatones
 cd "Scraper-Otamatones"
 ```
 2. Install dependencies:
@@ -33,10 +33,10 @@ py main.py
 ```
 # 👀 Tech stack
 ### Estructure
-The scraper is in the 'Scrapers' folder. You can only use the individual scraper if you want to check the ads and availability of pendrives. However, the individual scrapers DO NOT GENERATE SPREADSHEETS. If you want a general spreadsheet, use 'main.py' via the terminal. Feel free to adapt the codes to your needs.
+The scraper is in the 'Scrapers' folder. You can only use the individual scraper if you want to check the ads and availability of otamatones. However, the individual scrapers DO NOT GENERATE SPREADSHEETS. If you want a general spreadsheet, use 'main.py' via the terminal. Feel free to adapt the codes to your needs.
 ### Sites
 The monitored sites are:
-[https://www.criadouroreservadracaena.com/anfibios/](https://www.amazon.com.br/s?k=Otamatone)
+https://www.amazon.com.br/s?k=Otamatone
 
 ### Drink more water. 🥤
 ![Example of the generated spreadsheet](assets/Otamatone.png)
